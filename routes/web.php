@@ -79,3 +79,4 @@ Route::get('/client/edit/{id}', [ClientController::class,'edit']);//edit
 Route::post('/client/update', [ClientController::class,'update']);//update
 Route::get('/client/destroy/{id}', [ClientController::class,'destroy'])->name('.destroy');// delete route
 
+// hhjg

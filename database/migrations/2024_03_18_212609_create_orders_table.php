@@ -20,6 +20,7 @@ return new class extends Migration
             $table->text('delivery_address');
             $table->string('phone');
             $table->double('total');
+            $table->string('city')->nullable();
             $table->timestamps();
         });
     }

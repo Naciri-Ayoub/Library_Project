@@ -21,6 +21,7 @@ class Client extends Model
         'name',
         'image',
         'email',
+        'city',
         // 'email_verified_at',
         'phone',
         'birthday',
